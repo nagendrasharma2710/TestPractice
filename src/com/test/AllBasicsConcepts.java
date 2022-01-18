@@ -1,6 +1,6 @@
 package com.test;
 
-public class Test {
+public class AllBasicsConcepts {
 	void prim() {
 		int d=7, count=0;
 		for(int i=1;i<=d;i++) {
@@ -108,7 +108,7 @@ public class Test {
 		} System.out.println("reverse no = "+rev);
 	}
 	public static void main(String []args) {
-		Test test = new Test(); 
+		AllBasicsConcepts test = new AllBasicsConcepts(); 
 		test.prim();
 		test.pallin();
 		test.armtro();
